@@ -1,0 +1,88 @@
+/* 🔹 ExpenseList.css - Kiadások táblázatos megjelenítése */
+.expense-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+.expense-table th,
+.expense-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.expense-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+.expense-table td:last-child {
+    text-align: center;
+}
+
+/* 🔹 Szerkesztés és törlés ikonok */
+.action-icons {
+    cursor: pointer;
+    font-size: 18px;
+    margin: 0 5px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.action-icons:hover {
+    transform: scale(1.2);
+}
+
+/* 🔹 Szerkesztőmezők */
+.expense-edit-input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    width: 100px;
+}
+
+
+/* 📌 Lapozás UI */
+.pagination {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.pagination button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.pagination button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+
+.pagination-controls span {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* 📅 Szűrés és rendezés UI */
+.filter-controls {
+    display: flex;
+    gap: 15px;
+    margin: 10px 0;
+}
+
+.filter-controls label {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.filter-controls input,
+.filter-controls select {
+    margin-left: 5px;
+    padding: 5px;
+}
