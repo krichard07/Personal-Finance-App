@@ -14,19 +14,19 @@ Overview of total income, expenses and current balance with category-based chart
 
 Add, edit, delete, filter and sort income entries with category-based visualization.
 
-![Income Management](screenshots/Bev%C3%A9telek%20-%20Darkmode.png)
+![Income Management](screenshots/income.png)
 
 ### Expense Management
 
 Add, edit, delete, filter and sort expenses with category-based visualization.
 
-![Expense Management](screenshots/Kiad%C3%A1sok%20-%20Darkmode.png)
+![Expense Management](screenshots/expenses.png)
 
 ### Statistics
 
 Monthly income and expense statistics for tracking financial trends.
 
-![Statistics](screenshots/Statisztik%C3%A1k%20-%20Darkmode.png)
+![Statistics](screenshots/statistics.png)
 
 ### Light and Dark Mode
 
